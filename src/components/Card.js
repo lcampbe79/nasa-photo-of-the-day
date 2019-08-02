@@ -1,31 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-
-const MainDiv = styled.div`
-  padding: 20px;
-  background-color: black;
-  color: white;
-`;
-
-const WrapperDiv = styled.div`
-  display: flex;
-`;
-
-const DescriptionText = styled.p`
-  width: 50%;
-  font-size: 1.5em;
-  text-align: justify;
-  padding: 10px 10px 10px 10px;
-  
-`;
-
-const Image = styled.img`
-  width: 50%;
-`;
-
-const Title = styled.h3`
-  font-size: 3em;
-`;
+import { MainDiv, WrapperDiv, DescriptionText, Image, Title} from "../Styles/customStyles.js";
 
 export default function Card(props) {
   if (!props.img) {

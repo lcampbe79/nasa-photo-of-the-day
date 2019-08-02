@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Card from "./components/Card";
-
+import {MainTitle} from "./Styles/customStyles.js";
 
 import "./App.css";
+
+
 
 function App() {
 
@@ -23,6 +25,7 @@ function App() {
   
   return (
     <div className="App">
+      <MainTitle>NASA Photo of the Day</MainTitle>
       <Card 
         copyright={data.copyright}
         title={data.title}
