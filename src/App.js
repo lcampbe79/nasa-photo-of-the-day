@@ -19,14 +19,10 @@ function App() {
 
   }, [])
 
-  console.log(data)
+  // console.log(data)
   
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
       <Card 
         copyright={data.copyright}
         title={data.title}

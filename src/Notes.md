@@ -1,4 +1,4 @@
-setData(response.data) is thehook state, saves the data from the console.log(response)
+setData(response.data) -- is the hook state/function, sets the value of data in the console.log(response)
 
 
 <Card 
